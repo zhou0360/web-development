@@ -17,21 +17,7 @@ class webserverHandler(BaseHTTPRequestHandler):
                 output += '''<form method='POST' enctype='multipart/form-data' action='/annsway'><h2>What's your name? </h2><input name="message" type="text"><input type="submit" value="Submit"></form>'''
                 output += "</body></html>"
                 self.wfile.write(output) #sends a message to the client
-                print output
-                return
-
-            if self.path.endswith("/annsway2"):
-                self.send_response(200) #indicates successful get request
-                self.send_header('Content-type', 'text/html')
-                self.end_headers() #indicates the end of our HTTP headers in the response
-
-                output = ""
-                output += "<html><body>"
-                output += "<h1>Hello!</h1>"
-                output += '''<form method='POST' enctype='multipart/form-data' action='/annsway'><h2></h2><input name="message" type="text"><input type="submit" value="Submit"></form>'''
-                output += "</body></html>"
-                self.wfile.write(output) #sends a message to the client
-                print output
+                print(output)
                 return
 
         except IOError:
@@ -54,7 +40,7 @@ class webserverHandler(BaseHTTPRequestHandler):
             output += '''<form method='POST' enctype='multipart/form-data' action='/annsway'><h2>What's your name?</h2><input name="message" type="text" ><input type="submit" value="Submit"> </form>'''
             output += "</body></html>"
             self.wfile.write(output)
-            print output
+            print(output)
         except:
             pass
 
