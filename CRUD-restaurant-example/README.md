@@ -9,4 +9,6 @@ This CRUD example follows the restaurant example in my [Full Stack Web Developer
 
 * Initiate _python_ session in the terminal
 
-* Instantiate SQL Alchemy session and follow the CRUD codes in the _CRUD-restaurant.py_ file in this directory
+* Download the database (here)[https://github.com/udacity/Full-Stack-Foundations/tree/master/Lesson_1]
+
+* Instantiate SQL Alchemy session and follow the CRUD codes in the python scripts in this directory
