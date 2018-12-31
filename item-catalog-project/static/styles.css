@@ -1,0 +1,166 @@
+* {
+	font-family: "Arial Header", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: "Arial Header", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: #1A65B1;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 24px;
+	color: #4280c9;
+	line-height: 29px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #6ca6ea;
+	line-height: 23px;
+}
+ p {
+ 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+ 	font-size: 16px;
+ 	color: #303133;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+ strong {
+ 	font-size: 16px;
+ 	color: #303133;
+ 	line-height: 24px;
+ }
+
+ a {
+ 	font-size: 14px;
+ 	color: #303133;
+ 	line-height: 17px;
+ }
+.padding-top {
+	padding-top: 30px;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+.margin-right {
+	margin-right: 30px;
+}
+.padding-none {
+	padding: 0;
+}
+.btn {
+	padding: 20px;
+	margin: 0;
+	border-color: #6495ED;
+	border-width: 2px;
+	color: #6495ED;;
+}
+.btn:hover {
+	border-color: #6495ED;
+}
+.btn.delete {
+	border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #aaaaaa;
+	color: red;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+.top-ad {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.top-ad p {
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.top-ad a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #B0C4DE;
+	font-weight: 400;
+}
+.divider {
+	height: 15px;
+}
+.divider.blue {
+	background-color: #4280c9;
+}
+.divider.darkblue {
+	background-color: #6495ED;
+}
+.banner.main {
+	height: 150px;
+	background: url("/static/top-banner.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner.ad {
+	height: 150px;
+	/*background-color: #7fb0e1;*/
+	background-color: #b3ccff;
+}
+.banner.profile {
+	height: 150px;
+	/*background-color: #A6E8EB;*/
+	background-color: #b3ccff;
+
+}
+.banner h1 {
+	margin: 45px 0;
+}
+ .platform-list {
+ 	background-color: #6495ED;
+ 	padding: 20px;
+u }
+ .platform-list:hover {
+ 	background-color: #7fb0e1;
+ 	padding: 20px;
+}
+.ad-product {
+	background: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+	margin-left: -20px;
+}
+.ad-CPC {
+	font-weight: 700;
+}
+.creator {
+	padding-right: 20px;
+	margin-top: -20px;
+	text-align: right;
+	float:right;
+}
+.creator img {
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+	font-size: 14px;
+	color: #303133;
+	font-weight: 400;
+	margin-top: -20px;
+}
+.flash {
+	background-color: #FFFF00;
+	width:100%;
+	text-decoration: none;
+
+}
+
+.flash li {
+	list-style-type: none;
+	text-align: center;
+
+}

@@ -1,0 +1,101 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+
+	<div class="row divider darkblue">
+		<div class="col-md-12"></div>
+	</div>
+	<div class="row banner ad">
+		<div class="col-md-11 col-md-offset-1 padding-none">
+			<h1>{{ Platform.name }}
+			<figure class="creator">
+				<img src="{{ creator.picture}}">
+				<figcaption>Created by: {{ creator.name }}</figcaption>
+			</figure>
+			</h1>
+
+		</div>
+	</div>
+	<div class="row padding-top padding-bottom">
+		<div class="col-md-1"></div>
+		<div class="col-md-11 padding-none">
+
+		</div>
+		<div class="col-md-7"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					<ul>
+						{% for message in messages %}
+							 <li> <strong> {{ message }} </strong> </li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+			{% endwith %}
+		</div>
+	</div>
+
+	{% if items !=[] %}
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+
+				<h2>Video</h2>
+
+					{% for i in items %}
+						{% if i.Format == 'Video' %}
+							<div class="ad-product">
+								<h3>{{i.name}}</h3>
+								<p>{{i.description}}</p>
+								<p class="ad-CPC">{{i.CPC}}</p>
+							</div>
+						{% endif %}
+					{% endfor %}
+			</div>
+
+			<div class="col-md-3">
+				<h2>Image</h2>
+					{% for i in items %}
+						{% if i.Format == 'Image' %}
+						<div class="ad-product">
+							<h3>{{i.name}}</h3>
+							<p>{{i.description}}</p>
+							<p class="ad-CPC">{{i.CPC}}</p>
+
+						</div>
+						{% endif %}
+					{% endfor %}
+				<h2>Other</h2>
+					{% for i in items %}
+						{% if i.Format == 'Other' %}
+						<div class="ad-product">
+							<h3>{{i.name}}</h3>
+							<p>{{i.description}}</p>
+							<p class="ad-CPC">{{i.CPC}}</p>
+
+
+						</div>
+						{% endif %}
+					{% endfor %}
+
+					<h2>All</h2>
+						{% for i in items %}
+							{% if i.Format == 'All' %}
+							<div class="ad-product">
+								<h3>{{i.name}}</h3>
+								<p>{{i.description}}</p>
+								<p class="ad-CPC">{{i.CPC}}</p>
+
+
+							</div>
+							{% endif %}
+						{% endfor %}
+
+
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	{% endif %}
+{% endblock %}
