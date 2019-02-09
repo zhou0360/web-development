@@ -22,12 +22,12 @@ This Linux Server Configuration project was part of my [Full Stack Web Developer
 - Under *Home* and *Networking*, create DNS zone
   - Using [xip.io](http://xip.io/), the DNS or URL for my public IP address is **18.207.43.144.xip.io**
 
-    ![1-pic](/pics/1_DNS.png)
+    ![1-pic](\pics\1_DNS.png)
 
 **1.3 SSH into Linux Server**
 - Download the SSH Key or default private key, and move it to ``~/.ssh`` and rename it ``lightsail_key.rsa``
 
-  ![2-pic](/pics/2_SSH-key.png)
+  ![2-pic](\pics\2_SSH-key.png)
 
 - In your local terminal, type ``chmod 600 ~/.ssh/lightsail_key.rsa``
 
@@ -66,7 +66,7 @@ sudo ufw enable
 - In your instance, go to *Manage*, *Networking*
 - Under *Firewall* section, change to the following options:
 
-  ![3-pic](/pics/3_Firewall.png)
+  ![3-pic](\pics\3_Firewall.png)
 
 **3.1 User Management: Give ``grader`` Access**
 
@@ -111,7 +111,7 @@ sudo ufw enable
 
 - Check if Apache2 is working by visiting http://18.207.43.144; you should see the following:
 
-  ![4-pic](/pics/4_Apache2.png)
+  ![4-pic](\pics\4_Apache2.png)
 
 ``sudo apt-get install libapache2-mod-wsgi-py3``
 
@@ -189,7 +189,7 @@ cd /var/www/catalog/catalog
 
 - Change the existing project credentials from ``localhost`` to the following:
 
-  ![5-pic](/pics/5_GoogleOAuth2.png)
+  ![5-pic](\pics\5_GoogleOAuth2.png)
 
 - Download and save the new JSON file in the ``/catalog`` folder and update the client ID and client secret key in the following files:
   - ``__init__.py``
@@ -331,7 +331,7 @@ sudo service apache2 restart
 
 - Home page:
 
-  ![6-pic](/pics/6_HomePage.png)
+  ![6-pic](\pics\6_HomePage.png)
 
 **Resources**:
 
