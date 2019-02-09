@@ -34,6 +34,12 @@ This Linux Server Configuration project was part of my [Full Stack Web Developer
 - Connect using SSH:
 ``ssh -i ~/.ssh/lightsail_key.rsa ubuntu@18.207.43.144``
 
+- Update and upgrade installed packages:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 **2.1 Security Setup: Port Number and UFW **
 
 ``sudo nano /etc/ssh/sshd_config``
@@ -90,7 +96,9 @@ sudo ufw enable
   - ``sudo nano ~/.ssh/authorized_keys`` and paste the content from ``grader_key.pub`` into this file
   - ``chmod 700 .ssh``
   - ``chmod 644 .ssh/authorized_keys``
-  - ``nano /etc/ssh/sshd_config`` to check if ``PasswordAuthentication = NO``
+  - ``nano /etc/ssh/sshd_config`` and make the following changes:
+    - ``PasswordAuthentication no``
+    - ``PermitRootLogin no`` to prohibit ``root`` from remote SSH login
   - Restart SSH: ``sudo service ssh restart``
 
 - On your local machine:
@@ -335,3 +343,5 @@ sudo service apache2 restart
 
 
 - [Python3 + venv + wsgi Implementation](https://github.com/jungleBadger/-nanodegree-linux-server-troubleshoot/tree/master/python3%2Bvenv%2Bwsgi)
+
+- [Ubuntu 16.04 LTS sshd_config Documentation](http://manpages.ubuntu.com/manpages/xenial/en/man5/sshd_config.5.html)
