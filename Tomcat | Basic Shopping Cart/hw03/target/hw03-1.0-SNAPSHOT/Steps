@@ -1,0 +1,12 @@
+1. Create home.html, link it to ViewProductServlet.java, customize the link for each product to be added
+2. Create Product.java
+3. Create an in-memory DB.java to store products
+4. Create ShowProductServlet, link it to AddToCartServlet
+5. Create AddToCartServlet, use Session to store the product to be added
+- Use the following to create/retrieve the current shopping cart.
+    Map<String, Product> map = (Map<String, Product>) request.getSession().getAttribute("cart");
+- Determine if a product already exists in the cart.
+
+6. Create ViewCartServlet, use getAttribute method to get the data stored in Session
+
+
