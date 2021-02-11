@@ -1,0 +1,33 @@
+<!-- 在给定基础页面上实现以下效果:
+1:当鼠标移入“百度”上时，显示说明信息“百度一下你就知道"
+2:当鼠标移出“百度”时，隐藏说明信息“百度一下你就知道" -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <script>
+      function mouseoutfun() {
+        document.getElementById("ceshi").style.display = "none";
+      }
+      function mouseoverfun() {
+        document.getElementById("ceshi").style.display = "block";
+      }
+    </script>
+  </head>
+
+  <body>
+    <a
+      href="http://www.baidu.com"
+      onmouseout="mouseoutfun()"
+      onmouseover="mouseoverfun()"
+      >百度</a
+    >
+
+    <div id="ceshi" style="display: none"><a href="#">百度一下你就知道</a></div>
+  </body>
+</html>

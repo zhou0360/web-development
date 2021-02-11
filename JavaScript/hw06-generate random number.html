@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <span id="layer">000000</span>
+    <input
+      type="button"
+      value="生成随机整数"
+      id="btn"
+      onclick="generateRadomNum()"
+    />
+  </body>
+  <script>
+    function generateRadomNum() {
+      min = 100000;
+      max = 999999;
+      document.getElementById("layer").innerHTML = Math.floor(
+        Math.random() * (max - min) + min
+      ); // [100000, 999999)
+    }
+  </script>
+</html>
