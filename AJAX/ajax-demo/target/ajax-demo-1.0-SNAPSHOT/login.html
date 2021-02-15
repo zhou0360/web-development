@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+<h1>Mall of America</h1>
+<div id="loginForm">
+    Username <input type="text" id="username"><br>
+    Password <input type="password" id="password"><br>
+    <input type="submit" id="btn" value="Enter" onclick="login();">
+</div>
+</body>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script>
+    function login() {
+        let username = $("#username").val();
+        $.ajax({
+            url: "LoginServlet",
+            async: true,
+            data: "username="+username,
+            type:"POST",
+            dataType: "json", // server will return data in json format
+            success: function (data) { // server responds to client with data
+                if (data.type == "1") {
+                    console.log(username);
+                    $("#loginForm").empty();
+                    $("#loginForm").append($("<span>"+data.msg+"</span>"));
+                } else {
+                    alert(data.msg);
+                }
+            },
+            error: function() {
+                alert("Login Failed.");
+            }
+
+        })
+    }
+</script>
+</html>

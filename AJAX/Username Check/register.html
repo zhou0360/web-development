@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form autocomplete="off">
+    Name: <input type="text" id="username">
+    <span id="uSpan"></span> <!--check if username was taken-->
+    <br>
+    Password: <input type="text" id="password">
+    <br>
+    <input type="submit" value="Register">
+</form>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $("#username").blur(function () {
+        let username = $("#username").val();
+        $.ajax({
+            url: "UserServlet",
+            async: true,
+            data: "username=" + username,
+            type: "POST",
+            dataType: "text",
+            success: function (data) {
+                $("#uSpan").html(data);
+            },
+            error: function () {
+                alert("Error occurred...");
+            }
+        })
+    })
+</script>
+</html>
