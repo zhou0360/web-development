@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <table border="1" cellspacing="0" cellpedding="3">
+        <tbody id="data">
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>behavior</th>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>ann</td>
+            <td>
+              <a href="javascript:;" onclick="deleteRow(this)">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>steve</td>
+            <td>
+              <a href="javascript:;" onclick="deleteRow(this)">Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      id: <input type="text" id="no" value="" /> name:
+      <input type="text" id="name" value="" />
+      <input type="button" id="addBtn" value="Add" onclick="addRow()" />
+    </div>
+  </body>
+</html>
+<script type="text/javascript">
+  function addRow() {
+    //   insert code here
+  }
+  function deleteRow(obj) {
+    if (confirm("Are you sure to delete this student record? ")) {
+      console.log(obj);
+      //   insert code here
+      //   console.log(this);
+      let tr = obj.parentElement.parentElement;
+      tr.remove();
+    }
+  }
+</script>

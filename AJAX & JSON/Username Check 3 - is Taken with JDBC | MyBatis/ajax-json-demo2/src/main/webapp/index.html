@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<div>
+
+    Username: <input type="text" id="username">
+    <span id="uSpan"></span><br>
+    Password: <input type="text" id="password"><br>
+    <input type="submit" value="register" id="btn" onclick="register();">
+</div>
+</body>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script>
+    function register() {
+        let username = $("#username").val();
+        $.ajax({
+                url: "RegisterServlet",
+                async: true,
+                data: "username=" + username,
+                type: "POST",
+                dataType: "json",
+                success: function (data) {
+                    // read json data from the server
+                    $("#uSpan").empty();
+                    let msg;
+                    if (username == null || username == "") { // user input username is null
+                        alert("Please enter username. ");
+                    } else if (data == null || data == "") { // returned list is empty => the given username is not found in the database
+                        msg = "<font color='green'>This username is ok to use.</font>";
+                    } else { // the given username is found in the database
+                        msg = "<font color='red'>This username has been taken!</font>";
+                    }
+                    $("#uSpan").html(msg);
+
+                }
+                ,
+                error: function () {
+                    alert("Failed to connect to the server.");
+                }
+            }
+        );
+    }
+</script>
+</html>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ajax-json-demo2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ajax_json_demo2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ajax-json-demo2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="log4j-1.2.17" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ajax-json-demo2/web/Web" />
+    </root>
+  </artifact>
+</component>

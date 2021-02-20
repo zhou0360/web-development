@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0f9f167-9ad6-4ffc-a877-9cb9c3c618dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo/ajax-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/artifacts/ajax_json_demo2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/ajax-json-demo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/MyBatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/java/com/example/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/java/com/example/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/java/com/example/web/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/webapp/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/webapp/libs/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/webapp/libs/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/ajax-json-demo2/src/main/webapp/libs/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/artifacts/ajax_demo_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/artifacts/ajax_demo_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/libraries/jackson_annotations_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/ajax-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/java/com/example/ajax_demo/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/WEB-INF/lib/jackson-annotations-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/WEB-INF/lib/jackson-core-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/WEB-INF/lib/jackson-databind-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/js/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/src/main/webapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/WEB-INF/classes/com/example/ajax_demo/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/js/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/ajax-demo-1.0-SNAPSHOT/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/ajax-demo/target/classes/com/example/ajax_demo/LoginServlet.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1odm7ycUHYcb4ZCwA0HqAU8Ft46" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0f9f167-9ad6-4ffc-a877-9cb9c3c618dc" name="Default Changelist" comment="" />
+      <created>1613624678890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613624678890</updated>
+      <workItem from="1613624683632" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
